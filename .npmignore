@@ -1,6 +1,8 @@
 npm-debug.log
 .git
 .idea
+.npmignore
+.babelrc
 
 test
 src
