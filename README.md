@@ -24,7 +24,7 @@ $ npm i -S jsmp-infra-string-utils
 In Node.js:
 ```javascript
 var utils = require('jsmp-infra-string-utils');
-var modify = require('jsmp-infra-string-utils/lib/modify');
+var modify = require('jsmp-infra-string-utils/lib/modify').modify;
 ```
 
 ## Usage
