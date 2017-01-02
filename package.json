@@ -1,6 +1,6 @@
 {
   "name": "jsmp-infra-string-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JavaScript utility library delivering functions for strings transformation.",
   "main": "lib/index.js",
   "directories": {
