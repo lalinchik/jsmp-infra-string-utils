@@ -1,4 +1,4 @@
-import {modify} from '../modify';
+import {modify} from '../src/modify';
 import assert from 'assert';
 
 assert(true);

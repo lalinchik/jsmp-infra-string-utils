@@ -1,15 +1,18 @@
 {
-  "name": "jsmp-infra-stringifier",
+  "name": "jsmp-infra-string-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node test/arrayModify.spec.js && babel-node test/modify.spec.js",
+    "compile": "babel src --out-dir lib",
+    "clean": "rm -rf lib",
+    "prepublish": "npm run clean && npm run compile && npm test"
   },
-  "author": "",
+  "author": "Alina Shcherbak",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.18.0",

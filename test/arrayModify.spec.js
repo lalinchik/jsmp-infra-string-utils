@@ -1,4 +1,4 @@
-import {arrayModify} from '../index';
+import {arrayModify} from '../src/index';
 import assert from 'assert';
 
 assert(true);
