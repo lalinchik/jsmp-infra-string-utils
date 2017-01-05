@@ -1,2 +1,2 @@
-export {arrayModify} from './arrayModify';
-export {modify} from './modify';
+export { arrayModify } from './arrayModify';
+export { modify } from './modify';

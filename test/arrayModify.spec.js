@@ -1,5 +1,5 @@
-import {arrayModify} from '../src/index';
 import assert from 'assert';
+import { arrayModify } from '../src/index';
 
 assert(true);
 

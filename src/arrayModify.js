@@ -1,7 +1,7 @@
-import {modify} from './modify';
 import * as _ from 'lodash';
+import { modify } from './modify';
 
-export function arrayModify(arr, modifier) {
-    return _.map(arr, (elem) => modify(elem, modifier));
+export default function arrayModify(arr, modifier) {
+  return _.map(arr, elem => modify(elem, modifier));
 }
 

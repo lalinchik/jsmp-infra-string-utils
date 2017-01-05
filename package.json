@@ -10,13 +10,17 @@
     "test": "babel-node test/arrayModify.spec.js && babel-node test/modify.spec.js",
     "compile": "babel src --out-dir lib",
     "clean": "rm -rf lib",
-    "prepublish": "npm run clean && npm run compile && npm test"
+    "prepublish": "npm run clean && npm run compile && npm test",
+    "lint": "eslint src/** test/**"
   },
   "author": "Alina Shcherbak",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0"
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
   },
   "dependencies": {
     "lodash": "^4.17.4"
