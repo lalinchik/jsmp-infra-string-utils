@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { modify } from '../src/modify';
+import modify from '../src/modify';
 
 assert(true);
 
